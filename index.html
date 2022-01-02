@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
 
     <link
       rel="icon"
@@ -15,10 +16,75 @@
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
-    Shift the overall look and feel by adding these wonderful touches to
-    furniture in your home Ever been in a room and felt like something was
-    missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple
-    tips to help you make any room feel complete. Michelle Appleton 28 Jun 2020
-    Share
+    <main class="container">
+      <section class="hero">
+        <img src="./images/drawers.jpg" alt="hero image" class="hero-img" />
+      </section>
+
+      <section class="main-text">
+        <h2 class="header">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h2>
+        <p class="subtext">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+      </section>
+      <footer>
+        <div class="info">
+          <img
+            src="./images/avatar-michelle.jpg"
+            alt="picture of Michelle"
+            class="footer-img"
+          />
+          <div class="info-text">
+            <h3>Michelle Appleton</h3>
+            <p class="date">28 Jun 2020</p>
+          </div>
+        </div>
+        <div class="share-btn">
+          <img
+            src="./images/icon-share.svg"
+            alt="share icon"
+            class="share-icon"
+          />
+        </div>
+      </footer>
+
+      <div class="share">
+        <p href="#">SHARE</p>
+        <div class="share-img">
+          <a href="#"
+            ><img
+              src="./images/icon-facebook.svg"
+              alt="facebook icon"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="./images/icon-twitter.svg"
+              alt="twitter icon"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="./images/icon-pinterest.svg"
+              alt="pinterest icon"
+              class="social-icon"
+          /></a>
+        </div>
+        <div class="share-btn">
+          <img
+            src="./images/icon-share.svg"
+            alt="share button"
+            class="share-button share-icon"
+          />
+        </div>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
   </body>
 </html>
