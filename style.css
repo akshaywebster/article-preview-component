@@ -240,6 +240,7 @@ body {
   .header {
     letter-spacing: 0.25px;
     font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .main-text {
