@@ -41,6 +41,9 @@ body {
   max-width: 450px;
   border-radius: 10px;
   position: relative; /* for the share modal */
+
+  /* shadow */
+  box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
 }
 
 .hero {
@@ -78,7 +81,8 @@ body {
 }
 
 .footer {
-  margin: 0 var(--main-margin);
+  /* margin: 0 var(--main-margin); */
+  margin-top: 2rem;
   margin-bottom: 1.25rem;
   display: flex;
   justify-content: space-between;
