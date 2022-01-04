@@ -178,7 +178,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 48rem; /* 768px */
+    max-width: 44rem; /* 704px */
     border-radius: 10px;
     height: 17.5rem;
   }
